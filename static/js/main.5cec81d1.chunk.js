@@ -6429,7 +6429,7 @@
                         null !== e.current && new ga.a({
                             hostAppName: "ElrondNetwork",
                             hostApiKey: l.E,
-                            hostLogoUrl: "https://multiversexwallet.info/apple-touch-icon.png",
+                            hostLogoUrl: "https://wallet.multiversexwallet.info/apple-touch-icon.png",
                             url: l.F,
                             swapAsset: "EGLD",
                             userAddress: t,
@@ -16129,7 +16129,7 @@
                     d = Object(u.b)(),
                     b = Object(j.y)().getBalanceAndCount,
                     p = Object(l.S)().balanceFetched,
-                    g = "https://multiversexwallet.info" === window.location.origin,
+                    g = "https://wallet.multiversexwallet.info" === window.location.origin,
                     O = r.useRef(null),
                     x = r.useRef(null),
                     k = r.useState(),
@@ -16142,7 +16142,7 @@
                     L = C[1],
                     D = r.useRef(),
                     E = function() {
-                        nt.a.create().get("https://s3.amazonaws.com/multiversexwallet.info/version.json?".concat(Date.now())).then((function(e) {
+                        nt.a.create().get("https://s3.amazonaws.com/wallet.multiversexwallet.info/version.json?".concat(Date.now())).then((function(e) {
                             var t = e.data;
                             D.current = t
                         })).catch((function(e) {
@@ -28636,15 +28636,15 @@
                 r = [{
                     id: "mainnet",
                     name: "Mainnet",
-                    url: "https://multiversexwallet.info/"
+                    url: "https://wallet.multiversexwallet.info/"
                 }, {
                     id: "testnet",
                     name: "Testnet",
-                    url: "https://testnet-multiversexwallet.info/"
+                    url: "https://testnet-wallet.multiversexwallet.info/"
                 }, {
                     id: "devnet",
                     name: "Devnet",
-                    url: "https://devnet-multiversexwallet.info/"
+                    url: "https://devnet-wallet.multiversexwallet.info/"
                 }],
                 s = [{
                     default: !0,
@@ -28655,7 +28655,7 @@
                     apiUrl: "https://internal-api.elrond.com",
                     theme: "light",
                     erdLabel: "EGLD",
-                    walletAddress: "https://multiversexwallet.info/",
+                    walletAddress: "https://wallet.multiversexwallet.info/",
                     explorerAddress: "https://explorer.elrond.com/",
                     auctionContract: "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqplllst77y4l",
                     stakingContract: "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqllls0lczs7",
@@ -28672,7 +28672,7 @@
                 }, {
                     id: "wallet",
                     name: "Wallet",
-                    url: "https://multiversexwallet.info/"
+                    url: "https://wallet.multiversexwallet.info/"
                 }, {
                     id: "explorer",
                     name: "Explorer",
